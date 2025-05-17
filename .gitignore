@@ -10,7 +10,7 @@ renv/library/
 renv/staging/
 
 data/*
-!data/README.md    # Exception: keep doc that explains how to access data
+!data/README.md
 
 results/*
 !results/figures/
