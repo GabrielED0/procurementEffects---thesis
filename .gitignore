@@ -1,4 +1,31 @@
-.Rproj.user
+# RStudio junk
 .Rhistory
 .RData
-.Ruserdata
+.Rproj.user/
+
+# OS/system junk
+.DS_Store
+Thumbs.db
+
+# renv internals (keep lockfile)
+renv/library/
+renv/staging/
+
+# Exclude - All data files
+data/*
+!data/README.md    # Allow instructions on how to get the data
+
+# Allow final published figures/tables
+results/*
+!results/figures/
+!results/tables/
+
+# Scripts and Configs Only
+*.csv
+*.xlsx
+*.sav
+*.rds
+*.log
+*.txt
+
+
